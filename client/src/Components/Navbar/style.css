@@ -1,0 +1,82 @@
+.sideBar {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 7%;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	padding-top: 20px;
+	border-right: 1px solid rgb(218, 218, 218);
+}
+
+.sideBar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #555353;
+	display: block;
+}
+
+.sideBar a:hover {
+	color: Black;
+	background: rgb(221, 221, 221);
+}
+
+.main {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+.signup {
+	background-color: rgba(0, 0, 0, 0) !important;
+	color: #b7bcb9;
+	border: 3px solid #b7bcb9;
+	border-radius: 50px;
+}
+.signupAfter {
+	background-color: white;
+	border: 3px solid white;
+}
+.signin {
+	background-color: rgba(0, 0, 0, 0);
+	color: #b7bcb9;
+	border-radius: 50px;
+}
+
+.signinAftter {
+	color: white;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+/* .nav-link {
+	float: right;
+}
+
+.nav-item {
+	float: right;
+} */
+
+.nav-item-drop {
+	float: right;
+	width: 250px;
+	font-family: sans-serif;
+}
+/* .test{
+	color: #f4f4f4 !important;
+}
+.test:hover {
+	color: white !important;
+} */
+
+/* .nav-item:hover{
+	background-color: wheat;
+} */
